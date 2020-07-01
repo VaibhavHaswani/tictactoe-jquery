@@ -36,7 +36,7 @@ table tr td:hover {
 .winner {
 	width: 150px;
 	height: 80px;
-	margin: -250px auto auto 35px ;
+	margin: -250px auto auto 60px ;
 	font-size: 35px;
 	text-align: center;
 }
