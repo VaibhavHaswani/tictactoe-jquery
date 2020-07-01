@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Patua One';
+}
+
+
+.container-fluid{
+	background-image: url('1.jpg');
+
+   }
+
+h1{
+font-size: 40px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0px;
+	margin: 10px auto;
+	background-color: #272727 ;
+}
+
+table tr td {
+	width: 140px;
+	height: 140px;
+	border: 1px solid rgba(255,255,255,.05);
+	font-size: 40px;
+	text-align: center;
+}
+
+table tr td:hover {
+	background: #2c3531;
+	cursor: pointer;
+}
+.winner {
+	width: 240px;
+	height: 80px;
+	margin: -250px auto auto 80px ;
+	font-size: 35px;
+	text-align: center;
+}
+.winner span {
+	font-size: 20px;
+	display: block;
+}
+#reload {
+	width: 200px;
+	height: 40px;
+	margin: 180px auto;
+	display: block;
+	border: none;
+	background-color: #272727;
+	font-size: 20px;
+}
+.playerx{
+	font-size: 35px;
+	color:#61892f;
+}
+.playero{
+	font-size: 35px;
+	color:#e85a4f;
+}
+
+.sx,.so{
+	color:white;
+}
