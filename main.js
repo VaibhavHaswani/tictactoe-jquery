@@ -20,15 +20,15 @@ $(document).ready(function () {
 			if (checkForWinner() != "") {
 				if (checkForWinner() == "X") {
 					$('body').append('<div class="winner"><span>Winner</span>X</div><button id="reload">Play Again</button>');
-					$('.winner').css('background-color', '#61892f');
-					$('#reload').css('color','#61892f');
+					$('.winner').css('background-color', '#79ad3a');
+					$('#reload').css('color','#79ad3a');
 					scorex++;
 					$('.sx').text(scorex);
 					play=false;
 				} else if(checkForWinner()=="O"){
 					$('body').append('<div class="winner"><span>Winner</span>O</div><button id="reload">Play Again</button>');
-					$('.winner').css('background-color', '#e85a4f');
-					$('#reload').css('color','#e85a4f');
+					$('.winner').css('background-color', '#39a0f5');
+					$('#reload').css('color','#39a0f5');
 					scoreo++;
 					$('.so').text(scoreo);
 					play=false;
